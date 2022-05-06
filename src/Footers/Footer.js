@@ -1,12 +1,18 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import "../CSS/ToDo.css"
+import "../CSS/Footer.css"
 
 function Footer(props) {
   return (
-    <footer className='ToDoList'>
-        <h1>Footer</h1>
-    </footer>
+    <div class="footer-basic">
+      <footer>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">This is a Footer</a></li>
+        </ul>
+        <p class="copyright">No one @2022</p>
+      </footer>
+    </div>
+    
   )
 }
 
